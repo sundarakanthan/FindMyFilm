@@ -20,7 +20,7 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
 <h2>Requirements📋✅</h2>
 <ul>
   <li>Clone this repo.</li>
-  <li>Install JQuery using the [CDN](https://releases.jquery.com/)</li>
+  Install JQuery using the [CDN](https://releases.jquery.com/)
   <li>Install AXIOS using <br>`npm i axios` <br><b>OR</b> Include the [CDN](https://axios-http.com/docs/intro) in your document</li>
 </ul>
 
