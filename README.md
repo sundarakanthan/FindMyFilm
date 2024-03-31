@@ -22,7 +22,7 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
   <li>Clone this repo.</li>
   <li> Include <b>JQuery</b> using the <a href="https://releases.jquery.com/">CDN</a> </li>
   <li>Install AXIOS using <br>` npm i axios ` <br><b>OR</b> Include the <a href="https://axios-http.com/docs/intro">CDN</a> in your document.</li>
-  <li>Get the <a href="https://www.omdbapi.com/apikey.aspx"><b>OMDB</b></a> API key.</li>
+  <li>Get the <b>OMDB</b> API key <a href="https://www.omdbapi.com/apikey.aspx"><b>HERE</b></a>.</li>
   <li>It will generate a API endpoint link. Edit that link with appropriate parameters. <br> 
 <table>
     <tr>
