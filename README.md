@@ -18,8 +18,6 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
 </ul>
 
 <h3>Future Upgrades</h3>
-- [x] Enhancing the UI.
-- [ ] Fixing the size of the thumbnail.
-- [ ] Fixing the layout for mobile devices.
+- [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
