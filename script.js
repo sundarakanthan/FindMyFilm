@@ -16,7 +16,7 @@ function getMovies(searchedMovie){
         let movies = response.data.Search;
         output = '';
         $.each(movies, (i,movie)=>{
-            output += `<div class="col-md-3" >
+            output += `<div class="col-md-3" bg-dark >
             <div class="card bg-secondary bg-opacity-10" style="width: 18rem;">
             <img id="thumbnail" src="${movie.Poster}||/download.jpeg"} class="card-img-top" alt="No poster available">
             <div class="card-body">
@@ -50,34 +50,34 @@ function getMovies(searchedMovie){
                     let output = `
                     
                     <div class="row p-4">
-                        <div class = "col-md-4">
+                        <div class = "col-md-4 bg-secondary bg-opacity-25"  >
                             <img src="${movie.Poster}" class="thumbnail"><br>
                                 <a href="https://www.imdb.com/title/${movieId}">
                                     <button class="btn btn-primary">IMDB</button>
                                  </a>
                         </div>
 
-                        <div class="col-md-8">
+                        <div class="col-md-8 ">
                             <ul class="list-group">
-                                <li class="list-group-item"><strong>Title: </strong>${movie.Title}</li>
-                                <li class="list-group-item"><strong>Directed By: </strong>${movie.Director}</li>
-                                <li class="list-group-item"><strong>Year: </strong>${movie.Year}</li>
-                                <li class="list-group-item"><strong>Genre: </strong>${movie.Genre}</li>
-                                <li class="list-group-item"><strong>Language: </strong>${movie.Language}</li>
+                                <li class="list-group-item bg-dark-subtle"><strong>Title: </strong>${movie.Title}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Directed By: </strong>${movie.Director}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Year: </strong>${movie.Year}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Genre: </strong>${movie.Genre}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Language: </strong>${movie.Language}</li>
 
-                                <li class="list-group-item"><strong>Country: </strong>${movie.Country}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Country: </strong>${movie.Country}</li>
 
-                                <li class="list-group-item"><strong>Release On: </strong>${movie.Released}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Release On: </strong>${movie.Released}</li>
 
-                                <li class="list-group-item"><strong>Movie/Series: </strong>${movie.Type}</li>
-                                <li class="list-group-item"><strong>Runtime: </strong>${movie.Runtime}</li>
-                                <li class="list-group-item"><strong>IMDB Rating: </strong>${movie.imdbRating}</li>
-                                <li class="list-group-item"><strong>IMDB Votes: </strong>${movie.imdbVotes}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Movie/Series: </strong>${movie.Type}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>Runtime: </strong>${movie.Runtime}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>IMDB Rating: </strong>${movie.imdbRating}</li>
+                                <li class="list-group-item bg-dark bg-opacity-10"><strong>IMDB Votes: </strong>${movie.imdbVotes}</li>
                                 
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row bg-dark-subtle">
                         <h3>Plot</h3>
                         <p class="lead">${movie.Plot}</p>
                     </div>
