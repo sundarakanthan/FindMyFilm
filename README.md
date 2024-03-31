@@ -24,7 +24,11 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
   <li>Install AXIOS using <br>` npm i axios ` <br><b>OR</b> Include the <a href="https://axios-http.com/docs/intro">CDN</a> in your document.</li>
   <li>Get the <a href="https://www.omdbapi.com/apikey.aspx"><b>OMDB</b></a> API key.</li>
   <li>It will generate a API endpoint link. Edit that link with appropriate parameters. <br> 
-<table>
+<table border="1">
+    <tr>
+        <th>Parameter in link</th>
+        <th>Description</th>
+    </tr>
     <tr>
         <td>?s=</td>
         <td>Name of the movie</td>
@@ -34,7 +38,6 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
         <td>IMDB Id of the movie</td>
     </tr>
 </table>
-
 
  <b>For Example: ?s=godfather - this specifies the name of the movie at the end of the link.
   </b></li>
