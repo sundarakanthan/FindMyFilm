@@ -1,5 +1,5 @@
-<h1>FindMyMovie🎬🎥</h1>
-FindMyMovie is a web app in which we can search for movies across the web. Built using <b>HTML, CSS, JavaScript, JQuery</b> and <b>Bootstrap.</b><br>
+<h1>FindMyFilm🎬🎥</h1>
+FindMyFilm is a web app in which we can search for movies across the web. Built using <b>HTML, CSS, JavaScript, JQuery</b> and <b>Bootstrap.</b><br>
 Used JavaScript and JQuery for core logic and DOM manipulation.<br>
 Used <b>AXIOS</b> for making HTTP requests.<br>
 <b>Bootstrap's</b> components for making responsive layout. 
