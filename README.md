@@ -16,3 +16,8 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
   <li>Search for a movie title then click enter.</li>
   <li>Now click on the movie and then click view to view the selected movie's details.</li>
 </ul>
+
+<h3>Future Upgrades</h3>
+[] Enhancing the UI.
+[] Fixing the size of the thumbnail.
+[] Fixing the layout for mobile devices.
