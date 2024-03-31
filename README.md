@@ -25,8 +25,7 @@ After getting the movie name the <b>AXIOS</b> will make a HTTP request to the AP
 
 
 <h3>Future Upgrades🛠⚙</h3>
-<ul>
-Enchancing the UI.
-Fixing the layout for mobile devices.
-Fixing the size of thumbnail.
-</ul>
+Enchancing the UI.<br>
+Fixing the layout for mobile devices.<br>
+Fixing the size of thumbnail.<br>
+
